@@ -1,1 +1,10 @@
+trigger:
+- main
 
+pool:
+vmImage: "ubuntu-latest"
+
+steps:
+- script:
+    echo "Hello from Azure pipelines with ubuntu agent!"
+  displayName: "Hello World"
